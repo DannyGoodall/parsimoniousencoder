@@ -1,4 +1,8 @@
-Copyright (c) 2010-2013 Alexander Ljungberg.
+Copyright (c) 2010-2014 Danny Goodall.
+
+Based on the work of Alexander Ljunberg:
+
+https://github.com/aljungberg/hexahexacontadecimal
 
 All rights reserved.
 
@@ -9,7 +13,7 @@ Redistributions of source code must retain the above copyright notice, this
 list of conditions and the following disclaimer. Redistributions in binary
 form must reproduce the above copyright notice, this list of conditions and
 the following disclaimer in the documentation and/or other materials provided
-with the distribution. Neither the name of Alexander Ljungberg nor the names
+with the distribution. Neither the name of Danny Goodall nor the names
 of its contributors may be used to endorse or promote products derived from
 this software without specific prior written permission.
 
