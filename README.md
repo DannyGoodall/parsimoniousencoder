@@ -6,13 +6,13 @@ way to encode a number into a URL".**
 
 My need was different and instead of using the compact encoding of a long Long number to build a url-safe reference, 
 I needed to use the resultant encoding as a key for a MongoDB collection. It turns out (after much head scratching) 
-that MongoDB cannot use all of the characters in hexahexacontadecimal. The 
+that MongoDB cannot use all of the characters in hexahexacontadecimal. The following characters all seem to cause a problem, event though the docs suggest that just the dollar and period are restricted.
 ```
 .
 -
 _
 ```
-chars all seem to cause a problem.  As a result I needed a way to limit the characters used, to the onces that MongoDB is happy with. 
+As a result I needed a way to limit the characters used, to the onces that MongoDB is happy with. 
 
 In addition, I needed to be able to reliably sort these encoded keys. For example in base 62, encoding of the following 
 numbers is sequential, but from an ascii sort perspective the order is wrong:
@@ -116,4 +116,5 @@ Free to use and modify under the terms of the BSD open source license.
 ## Author ##
 
 Danny Goodall
-__Based on work by Alexander Ljungberg__
+
+**Based on work by Alexander Ljungber**
