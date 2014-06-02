@@ -13,7 +13,6 @@ that MongoDB cannot use all of the characters in hexahexacontadecimal. The follo
 _
 ```
 As a result I needed a way to limit the characters used, to the onces that MongoDB is happy with. 
-
 In addition, I needed to be able to reliably sort these encoded keys. For example in base 62, encoding of the following 
 numbers is sequential, but from an ascii sort perspective the order is wrong:
 ```
