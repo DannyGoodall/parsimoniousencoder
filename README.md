@@ -117,4 +117,4 @@ Free to use and modify under the terms of the BSD open source license.
 
 Danny Goodall
 
-**Based on work by Alexander Ljungber**
+**Based on work by Alexander Ljungberg**
